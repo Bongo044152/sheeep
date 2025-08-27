@@ -1,0 +1,10 @@
+
+# python venv
+.venv
+
+# vscode file
+.vscode
+
+# python cache
+__pycache__
+.pytest_cache
