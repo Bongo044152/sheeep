@@ -5,11 +5,18 @@
 # TODO: 在此實作 sum_1_to_n
 
 # sum_1_to_n(n): 回傳 1+2+...+n 的總和
-def sum_1_to_n(n: int) -> int :
-    return 0
 
+def sum_1_to_n(n: int) -> int:
+    total=0
+    for i in range(n+1):
+        total+=i
+    return total
 # TODO: 在此實作 find_max
 
 # 給定整數列表，回傳最大值（不用 max()）
 def find_max(nums: list[int]) -> int:
-    return 0
+    biggest=nums[0]
+    for i in nums:
+        if i>biggest:
+            biggest=i
+    return biggest

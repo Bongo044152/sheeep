@@ -16,7 +16,7 @@ def c_to_f(c: float) -> float:
 
     公式參考：https://zh.wikipedia.org/wiki/%E5%8D%8E%E6%B0%8F%E6%B8%A9%E6%A0%87
     """
-    return -1.0
+    return (9/5)*c+32
 
 
 def f_to_c(f: float) -> float:
@@ -31,4 +31,4 @@ def f_to_c(f: float) -> float:
 
     公式參考：https://zh.wikipedia.org/wiki/%E5%8D%8E%E6%B0%8F%E6%B8%A9%E6%A0%87
     """
-    return -1.0
+    return (5/9)*(f-32)
