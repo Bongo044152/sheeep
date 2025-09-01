@@ -5,7 +5,7 @@
 # TODO: 在此實作 sum_1_to_n
 
 # sum_1_to_n(n): 回傳 1+2+...+n 的總和
-def sum_1_to_n(n: int) -> int:
+def sum_1_to_n(n: int) -> int :
     return 0
 
 # TODO: 在此實作 find_max
