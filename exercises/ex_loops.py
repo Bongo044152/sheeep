@@ -15,7 +15,7 @@ def sum_1_to_n(n: int) -> int:
 
 # 給定整數列表，回傳最大值（不用 max()）
 def find_max(nums: list[int]) -> int:
-    biggest=0
+    biggest=nums[0]
     for i in nums:
         if i>biggest:
             biggest=i

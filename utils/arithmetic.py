@@ -31,6 +31,6 @@ def div(a: float, b: float) -> float:
         ValueError: 當 b == 0 時拋出
     """
     if b==0:
-        raise ValueError("")
+        raise ValueError("當 b == 0 時拋出")
     # 安全檢查很重要喔！ 如果 b 是 0
     return float(a/b)
